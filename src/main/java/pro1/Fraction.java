@@ -10,4 +10,13 @@ public class Fraction
         this.n = n / g;
         this.d = d / g;
     }
+
+    public static Fraction parse(String s)
+    {
+        return new Fraction(1,1);
+    }
+
+    public String toString() {
+        return  n + "/" + d;
+    }
 }
